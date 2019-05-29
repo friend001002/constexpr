@@ -196,7 +196,7 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(129): warning C4820: 'std::basic_istream<char,std::char_traits<char>>::sentry': '3' bytes padding added after data member 'std::basic_istream<char,std::char_traits<char>>::sentry::_Ok'
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(378): note: see reference to class template instantiation 'std::basic_istream<char,std::char_traits<char>>::sentry' being compiled
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(374): note: while compiling class template member function 'int std::basic_istream<char,std::char_traits<char>>::get(void)'
-  d:\visual_studio_projects\c++\study\constexpr\constexpr\constexpr.cpp(110): note: see reference to function template instantiation 'int std::basic_istream<char,std::char_traits<char>>::get(void)' being compiled
+  d:\visual_studio_projects\c++\study\constexpr\constexpr\constexpr.cpp(152): note: see reference to function template instantiation 'int std::basic_istream<char,std::char_traits<char>>::get(void)' being compiled
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(773): note: see reference to class template instantiation 'std::basic_istream<char,std::char_traits<char>>' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(394): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(181): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
@@ -369,12 +369,72 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(610): warning C4514: 'tanh': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(615): warning C4514: 'tgamma': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(620): warning C4514: 'trunc': unreferenced inline function has been removed
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtgmath.h(105): warning C4514: '_Fma': unreferenced inline function has been removed
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtgmath.h(110): warning C4514: '_Fma': unreferenced inline function has been removed
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtgmath.h(115): warning C4514: '_Fma': unreferenced inline function has been removed
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtgmath.h(151): warning C4514: '_Remquo': unreferenced inline function has been removed
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtgmath.h(156): warning C4514: '_Remquo': unreferenced inline function has been removed
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xtgmath.h(161): warning C4514: '_Remquo': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(758): warning C4514: 'std::assoc_laguerre': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(765): warning C4514: 'std::assoc_laguerref': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(772): warning C4514: 'std::assoc_laguerrel': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(779): warning C4514: 'std::assoc_legendre': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(786): warning C4514: 'std::assoc_legendref': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(793): warning C4514: 'std::assoc_legendrel': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(800): warning C4514: 'std::beta': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(806): warning C4514: 'std::betaf': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(812): warning C4514: 'std::betal': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(818): warning C4514: 'std::comp_ellint_1': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(824): warning C4514: 'std::comp_ellint_1f': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(830): warning C4514: 'std::comp_ellint_1l': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(836): warning C4514: 'std::comp_ellint_2': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(842): warning C4514: 'std::comp_ellint_2f': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(848): warning C4514: 'std::comp_ellint_2l': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(854): warning C4514: 'std::comp_ellint_3': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(860): warning C4514: 'std::comp_ellint_3f': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(866): warning C4514: 'std::comp_ellint_3l': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(872): warning C4514: 'std::cyl_bessel_i': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(878): warning C4514: 'std::cyl_bessel_if': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(884): warning C4514: 'std::cyl_bessel_il': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(890): warning C4514: 'std::cyl_bessel_j': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(896): warning C4514: 'std::cyl_bessel_jf': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(902): warning C4514: 'std::cyl_bessel_jl': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(908): warning C4514: 'std::cyl_bessel_k': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(914): warning C4514: 'std::cyl_bessel_kf': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(920): warning C4514: 'std::cyl_bessel_kl': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(926): warning C4514: 'std::cyl_neumann': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(932): warning C4514: 'std::cyl_neumannf': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(938): warning C4514: 'std::cyl_neumannl': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(944): warning C4514: 'std::ellint_1': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(950): warning C4514: 'std::ellint_1f': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(956): warning C4514: 'std::ellint_1l': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(962): warning C4514: 'std::ellint_2': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(968): warning C4514: 'std::ellint_2f': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(974): warning C4514: 'std::ellint_2l': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(980): warning C4514: 'std::ellint_3': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(986): warning C4514: 'std::ellint_3f': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(992): warning C4514: 'std::ellint_3l': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1000): warning C4514: 'std::expint': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1006): warning C4514: 'std::expintf': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1012): warning C4514: 'std::expintl': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1018): warning C4514: 'std::hermite': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1024): warning C4514: 'std::hermitef': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1030): warning C4514: 'std::hermitel': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1036): warning C4514: 'std::laguerre': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1042): warning C4514: 'std::laguerref': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1048): warning C4514: 'std::laguerrel': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1054): warning C4514: 'std::legendre': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1060): warning C4514: 'std::legendref': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1066): warning C4514: 'std::legendrel': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1072): warning C4514: 'std::riemann_zeta': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1078): warning C4514: 'std::riemann_zetaf': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1084): warning C4514: 'std::riemann_zetal': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1090): warning C4514: 'std::sph_bessel': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1096): warning C4514: 'std::sph_besself': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1102): warning C4514: 'std::sph_bessell': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1108): warning C4514: 'std::sph_legendre': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1115): warning C4514: 'std::sph_legendref': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1122): warning C4514: 'std::sph_legendrel': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1129): warning C4514: 'std::sph_neumann': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1135): warning C4514: 'std::sph_neumannf': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1141): warning C4514: 'std::sph_neumannl': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1148): warning C4514: 'std::hypot': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1153): warning C4514: 'std::hypot': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(1158): warning C4514: 'std::hypot': unreferenced inline function has been removed
 c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h(311): warning C4514: 'vfwprintf': unreferenced inline function has been removed
 c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h(342): warning C4514: 'vfwprintf_s': unreferenced inline function has been removed
 c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstdio.h(373): warning C4514: '_vfwprintf_p': unreferenced inline function has been removed
@@ -535,6 +595,10 @@ c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(504): 
 c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(510): warning C4514: 'strpbrk': unreferenced inline function has been removed
 c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(516): warning C4514: 'strrchr': unreferenced inline function has been removed
 c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(522): warning C4514: 'strstr': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstddef(57): warning C4514: 'std::operator ~': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstddef(76): warning C4514: 'std::operator |=': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstddef(81): warning C4514: 'std::operator &=': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstddef(86): warning C4514: 'std::operator ^=': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(2442): warning C4514: 'std::hash<float>::operator ()': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(2453): warning C4514: 'std::hash<double>::operator ()': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(2464): warning C4514: 'std::hash<long double>::operator ()': unreferenced inline function has been removed
@@ -547,7 +611,6 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vcruntime_exception.h(115): warning C4514: 'std::bad_alloc::bad_alloc': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vcruntime_exception.h(135): warning C4514: 'std::bad_array_new_length::bad_array_new_length': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(37): warning C4514: 'std::get_terminate': unreferenced inline function has been removed
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(50): warning C4514: 'std::get_unexpected': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(247): warning C4514: 'std::exception_ptr::exception_ptr': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(262): warning C4514: 'std::exception_ptr::operator =': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(268): warning C4514: 'std::exception_ptr::operator =': unreferenced inline function has been removed
@@ -747,6 +810,7 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(185): warning C4514: 'std::_Iterator_base12::_Getpnext': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(434): warning C4514: 'std::_Unused_parameter::_Unused_parameter': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(724): warning C4514: 'std::_Distance_unknown::operator -': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(56): warning C4514: 'std::_Default_allocate_traits::_Allocate_aligned': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(63): warning C4514: 'std::_Is_pow_2': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\stdexcept(23): warning C4514: 'std::logic_error::logic_error': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\stdexcept(51): warning C4514: 'std::domain_error::domain_error': unreferenced inline function has been removed
@@ -921,13 +985,11 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(262): warning C4514: 'std::ios_base::Init::~Init': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(276): warning C4514: 'std::ios_base::operator bool': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(281): warning C4514: 'std::ios_base::operator !': unreferenced inline function has been removed
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(322): warning C4514: 'std::ios_base::clear': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(333): warning C4514: 'std::ios_base::setstate': unreferenced inline function has been removed
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(344): warning C4514: 'std::ios_base::setstate': unreferenced inline function has been removed
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(338): warning C4514: 'std::ios_base::setstate': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(355): warning C4514: 'std::ios_base::eof': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(365): warning C4514: 'std::ios_base::bad': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(370): warning C4514: 'std::ios_base::exceptions': unreferenced inline function has been removed
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(382): warning C4514: 'std::ios_base::exceptions': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(393): warning C4514: 'std::ios_base::flags': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(424): warning C4514: 'std::ios_base::precision': unreferenced inline function has been removed
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xiosbase(448): warning C4514: 'std::ios_base::imbue': unreferenced inline function has been removed
