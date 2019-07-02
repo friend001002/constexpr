@@ -107,6 +107,48 @@ int main()
 
   cout << "After Fun flag is " << cls.flag_ << endl;
 
+  extern int ext;
+
+  //goto false_label; // Can't jump into if constexpr.
+
+  // C++17
+  if constexpr (true)
+  {
+    cout << "True\n";
+
+    //goto false_label; // Can't jump from true to false.
+
+    goto after_if_constexpr;
+  }
+  else
+  {
+    //false_label: // Can't have unused labels inside if constexpr.
+
+    ext += 5; // In false part can use unreferenced externs.
+  }
+
+  after_if_constexpr:
+
+  cout << "Can jump out of if constexpr\n";
+
+  if constexpr (a > c)
+  {
+    cout << "a = " << a << " > c = " << c << endl;
+  }
+  else
+  {
+    cout << "a = " << a << " < c = " << c << endl;
+  }
+
+  /*if constexpr (f > g) // f and g aren't constant expressions.
+  {
+    cout << "f = " << f << " > g = " << g << endl;
+  }
+  else
+  {
+    cout << "f = " << f << " < g = " << g << endl;
+  }*/
+
   cin.get();
   cin.get();
 }
